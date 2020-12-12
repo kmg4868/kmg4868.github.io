@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect('localhost', 'admin', 'admin', 'employees');
+    $link = mysqli_connect('https://kmg4868.github.io/', 'admin', 'admin', 'employees');
 
     if(mysqli_connect_errno()){
         echo "Failed to connect to MariaDB: " . mysqli_connect_error();
